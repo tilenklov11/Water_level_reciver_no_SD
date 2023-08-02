@@ -86,7 +86,7 @@ void loop() {
     Serial.println("Server:" + (WiFi.status() == WL_CONNECTED) ? WiFi.localIP().toString() : "Offline");
     display.drawString(0, 40, "Server:" + (WiFi.status() == WL_CONNECTED) ? WiFi.localIP().toString() : "Offline");
     display.display();
-    changeIP();
+    //changeIP();
   }
 
   Web_Server();
