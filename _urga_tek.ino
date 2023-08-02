@@ -5,13 +5,13 @@
 
 #include <WiFi.h>
 
-#define a_SSID "ASUS_64"
-#define a_PASSWORD "tilen999"
+#define a_SSID "Wifi SSID"
+#define a_PASSWORD "Wifi password"
 WiFiServer server(80);
 
-#define a_DOMAIN (String) "hribrezervoar.com"
+#define a_DOMAIN (String) "Domain"
 #define a_HOST (String) "@"
-#define a_DNS_PASSWORD (String) "8585c1a622db48a3a63752e636729278"
+#define a_DNS_PASSWORD (String) "DNS password"
 
 // Pin definitions
 #define SDA     21   // I2C data
