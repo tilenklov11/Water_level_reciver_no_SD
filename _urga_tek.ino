@@ -137,7 +137,7 @@ inline void Web_Server(){
             client.print("<div style=\"grid\">");
             String tempstr = OldData;
             tempstr.replace("\n","</text><text style=\"background-color:#2196F3;padding: 6px 8px 6px 10px\">");
-            client.print("<text style=\"background-color:#2196F3;padding: 6px 8px 6px 10px\">" + tempstr + "</text>");
+            client.print("<text style=\"background-color:#2196F3;padding: 6px 8px 6px 10px;font-size: 60px;\">" + tempstr + "</text>");
             client.print("</div>");
             client.print("</body>");
 
