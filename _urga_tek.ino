@@ -59,6 +59,7 @@ void setup() {
 
   WiFi.begin(a_SSID, a_PASSWORD);
   server.begin();
+    if ((millis()/(12 * 1000 * 60) ) > 1 ){ESP.restart();}
 }
 
 bool old_wifi_state = false;
